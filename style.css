@@ -1,0 +1,57 @@
+.font-color{
+  color: #fff;
+}
+
+.small-font{
+  font-size: 20px;
+}
+
+.big-font{
+  font-size: 24px;
+}
+
+.container-box{
+  display: flex;
+}
+
+.side{
+  width: 170px;
+  height: 100vh;
+  background-color: #9370db;
+  padding: 10px;
+  transition: .5s;
+  transform: translateX(-120px);
+  position: fixed;
+}
+
+.side:hover{
+  transform: translateX(0);
+}
+
+.side-menu{
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.side .side-icon{
+  margin-top: 5px;
+  right: 5px;
+  position: absolute;
+  transition: .5s;
+}
+
+.side:hover .side-icon{
+  transform: translateX(-100px);
+}
+
+.side .side-text{
+  position: absolute;
+  left: 0px;
+  transition: .5s;
+}
+
+.side:hover .side-text{
+  left: 52px;
+}
