@@ -1,3 +1,7 @@
+.hidden{
+  visibility: hidden;
+}
+
 .font-color{
   color: #fff;
 }
@@ -10,10 +14,6 @@
   font-size: 24px;
 }
 
-.container-box{
-  display: flex;
-}
-
 .side{
   width: 170px;
   height: 100vh;
@@ -22,6 +22,7 @@
   transition: .5s;
   transform: translateX(-120px);
   position: fixed;
+  z-index: 1;
 }
 
 .side:hover{
@@ -54,4 +55,51 @@
 
 .side:hover .side-text{
   left: 52px;
+}
+
+.contents{
+  padding-left: 50px;
+}
+
+.header{
+  background-color: #fff;
+  height: 50px;
+}
+
+.main-content{
+  background-color: #eee;
+  height: 500px;
+  position: relative;
+}
+
+.header-bar{
+  border: 2px solid #eee;
+  padding: 5px 10px;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.Search{
+  margin-top: 10px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.inputBox{
+  border-radius: 5px;
+}
+
+.inputBox:focus{
+  width: 300px;
+}
+
+.fa-search{
+  background-color: #000;
+  position: absolute;
+  right: 0px;
+  padding: 7px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
