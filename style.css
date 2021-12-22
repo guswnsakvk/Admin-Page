@@ -14,6 +14,11 @@
   font-size: 24px;
 }
 
+.hearder-icon-margin{
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
 .side{
   width: 170px;
   height: 100vh;
@@ -59,6 +64,7 @@
 
 .contents{
   padding-left: 50px;
+  overflow: hidden;
 }
 
 .header{
@@ -89,10 +95,12 @@
 
 .inputBox{
   border-radius: 5px;
+  transition: width 1s;
 }
 
 .inputBox:focus{
   width: 300px;
+
 }
 
 .fa-search{
@@ -102,4 +110,12 @@
   padding: 7px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.badge{
+  font-size: 0.5em !important;
+}
+
+.fa-bell{
+  margin-left: 80px;
 }
