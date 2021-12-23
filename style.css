@@ -94,13 +94,13 @@
 }
 
 .inputBox{
+  width: 150px;
   border-radius: 5px;
   transition: width 1s;
 }
 
 .inputBox:focus{
   width: 300px;
-
 }
 
 .fa-search{
