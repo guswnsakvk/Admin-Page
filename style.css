@@ -96,10 +96,12 @@
 
 .main-content{
   background-color: #eee;
-  height: calc(100vh - 50px);
+  height: 100%;
+  /* height: calc(100vh - 50px); */
   width: calc(100vw - 50px);
   margin-left: 50px;
-  padding: 30px;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 .header-bar{
@@ -158,6 +160,10 @@
   right: 3%;
 }
 
+.Dashboard{
+  margin-bottom: 10px;
+}
+
 .Dashboard-box{
   height: 120px;
   background-color: #fff;
@@ -166,6 +172,7 @@
   box-sizing: border-box;
   position: relative;
   padding-left: 15px;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .Dashboard-box-title{
@@ -184,6 +191,22 @@
   left: 75%;
   font-size: 32px;
   color: gray;
+}
+
+.myChart{
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
+  border: 0.5px solid gray;
+}
+
+.myChart-title{
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+  border-bottom: 0.5px solid gray;
 }
 
 @media screen and (max-width: 768px){
