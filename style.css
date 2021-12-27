@@ -193,7 +193,7 @@
   color: gray;
 }
 
-.myChart{
+.Dashboard-Bottom{
   margin-top: 8px;
   background-color: #fff;
   border-radius: 5px;
@@ -201,16 +201,76 @@
   border: 0.5px solid gray;
 }
 
-.myChart-title{
+.main-content-title{
   background-color: #eee;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 40px;
   border-bottom: 0.5px solid gray;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+#myChart{
+  padding: 10px
+}
+
+.task{
+  position: relative;
+}
+
+.task-menu{
+  padding-left: 10px;
+}
+
+.task-menu1{
+  height: 35px;
+  border-bottom: 0.5px solid gray;
+  line-height: 35px;
+}
+
+.task-badge1{
+  position: absolute;
+  top: 50px;
+  right: 10%;
+  line-height: 20px;
+  border-bottom: 0.5px solid gray;
+  box-sizing: border-box;
+}
+
+.task-menu2{
+  height: 35px;
+  border-bottom: 0.5px solid gray;
+  line-height: 35px;
+}
+
+.task-badge2{
+  position: absolute;
+  top: 85px;
+  right: 10%;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.task-menu3{
+  height: 35px;
+  line-height: 35px;
+}
+
+.task-badge3{
+  position: absolute;
+  top: 120px;
+  right: 10%;
+  line-height: 20px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px){
   .Dashboard-box-icon{
-    left: 90%;
+    left: 85%;
+  }
+
+  .Dashboard-Bottom{
+    margin-bottom: 10px;
   }
 }
